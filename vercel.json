@@ -1,11 +1,7 @@
 {
   "rewrites": [
-    { "source": "/assets/(index-:path*.css)", "destination": "/assets/css/index-:path*.css" },
-    { "source": "/assets/(index-:path*.js)", "destination": "/assets/js/index-:path*.js" },
     { "source": "/Images/:path*", "destination": "/assets/images/:path*" },
     { "source": "/fonts/Chillax_Complete/Fonts/WEB/css/chillax.css", "destination": "/assets/css/chillax.css" },
-    { "source": "/fonts/Chillax_Complete/Fonts/WEB/fonts/:path*", "destination": "/assets/fonts/:path*" },
-    { "source": "/Acorn%20Font/:path*", "destination": "/assets/fonts/:path*" },
-    { "source": "/Acorn Font/:path*", "destination": "/assets/fonts/:path*" }
+    { "source": "/fonts/Chillax_Complete/Fonts/WEB/fonts/:path*", "destination": "/assets/fonts/:path*" }
   ]
 }
